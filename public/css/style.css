@@ -22,3 +22,6 @@ small {
 small a:visited {
   color: #06f;
 }
+.democlass {
+  color: red;
+}
