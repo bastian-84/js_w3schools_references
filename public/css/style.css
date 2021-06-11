@@ -35,3 +35,7 @@ small a:visited {
   background-color: #4753ff;
   color: white;
 }
+a:focus,
+a:active {
+  color: green;
+}
