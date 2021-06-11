@@ -25,3 +25,8 @@ small a:visited {
 .democlass {
   color: red;
 }
+#eventDiv1 {
+  padding: 50px;
+  background-color: #4753ff;
+  color: white;
+}
