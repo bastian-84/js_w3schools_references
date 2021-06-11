@@ -1,14 +1,19 @@
 <!doctype html>
 <html>
 
-<head>
+<head id='myHeadId'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>js_w3schools_references</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body>
+
+<!-- Für execCommand( ) -->
+<!-- <body onkeydown="fnDoX1(event)"> -->
+<!-- Für Normalize -->
+<!-- <body onload="normPara()"> -->
+<body >
     <small><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">w3schools JS references</a></small>
     <div>output01: [ <br /></div>
     <div id='output01'>
@@ -33,6 +38,26 @@
     <!-- <div id='eventDiv1' onmouseover="this.innerHTML += '*'; "></div> -->
     <div id='eventDiv1' ></div>
     <button id='simBtn' onclick='fn1(event)'>Simulate mouseover event</button>
+    
+    <h2>execCommand( )</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>
+    <h2>img</h2>
+    <img src='./assets/img/landscape.jpg' />
+    <h2>Normalize</h2>
+    <p>The document has <span id="cc">1</span> child node(s).</p>
+    <button id='bAdd'>Add text node</button>
+    <button id='bRem'>Remove text node</button>
+    <h2>querySelector querySelectorAll</h2>
+    <h3 class='h3Class'>H3</h3>
+    <h3 class='h3Class'>H3</h3>
+    <button id='sB2'>Do 1</button>
+    <button id='sB3'>Do all</button>
+    <h2> remove eventListener</h2>
+    <div>Random Nr.: [</div>
+    <div id='output2'></div>
+    <div>]</div>
+    <button id='startEventListenerBtn'>startEventListener</button>
+    <button id='stopEventListenerBtn'>stopEventListener</button>
 
     <!-- <script src=js/script.js></script> -->
     <!-- <script src=js/arr-1.js></script> -->
