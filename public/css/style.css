@@ -39,3 +39,33 @@ a:focus,
 a:active {
   color: green;
 }
+.mystyle {
+  width: 300px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+}
+#myDIV {
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  margin: 15px;
+  border-top: 15px solid black;
+  border-left: 10px solid red;
+  background-color: lightblue;
+}
+.anchors {
+  display: block;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+#myAnchor {
+  background-color: dodgerblue;
+}
+.container {
+  background-color: tomato;
+  color: white;
+  padding: 20px;
+}

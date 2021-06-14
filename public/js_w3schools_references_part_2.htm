@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+<!-- <html> -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
 
 <head id='myHeadId'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,12 +16,14 @@
 <!-- <body onload="normPara()"> -->
 
 <body>
+
     <small><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">w3schools JS references</a></small>
     <div>output01: [ <br /></div>
     <div id='output01'>
     </div>
     <div>]</div>
     <button id='b1' class='btn'>&lt;button&gt; </button>
+    <!-- <button id='b1' class='btn'>button</button> -->
     <!--    
      <h2>accessKey</h2>
     <a id="w3s" href="https://www.w3schools.com/">W3Schools</a><br>
@@ -40,13 +43,170 @@
     <h2>get focus, leave focus</h2>
     <a id="myAnchor" href="https://www.w3schools.com">Visit W3Schools.com</a>
 
-    <input type="button"  value="Get focus" id='b01'>
-    <input type="button"  value="Lose focus" id='b2'>
-     
-     <!-- 
+    <input type="button" value="Get focus" id='b01'>
+    <input type="button" value="Lose focus" id='b2'>
+
+    <!-- 
     <button   id='b01'>b01</button>
     <button   id='b2'>b2</button>
  -->
+    <!-- 
+ <h2>childElementCount</h2>
+ <div id="myDIV">
+    <p>First p element</p>
+    <p>Second p element</p>
+  </div>
+   -->
+    <!-- 
+   <h2>clientLeft</h2>
+   <div id="myDIV">
+    <p id="demo"></p>
+  </div>
+   -->
+    <!-- 
+   <h2>cloneNode</h2>
+<ul id="myList1"><li>Coffee</li><li>Tea</li></ul>
+<ul id="myList2"><li>Water</li><li>Milk</li></ul>
+ -->
+    <!-- 
+<h2>closest</h2>
+
+<div class="demo"> Grandparent
+    <div class="demo container">Parent
+      <div id="myElement" class="demo">The parent of this div element will be selected.</div>
+    </div>
+  </div>
+ -->
+    <!-- 
+ <h2>compare</h2>
+ <p id="p1">This is a paragraph</p>
+<p id="p2">This is another paragraph</p>
+ -->
+    <!-- 
+ <h2>contains</h2>
+ <div id="myDIV">
+    <p>I am a p element inside div, and I have a <span id="mySPAN"><b>span</b></span> element inside of me.</p>
+  </div>
+ -->
+    <!-- 
+ <h2>editable</h2>
+ <p id="myP">This is a paragraph. Click the button to make me editable.</p>
+ -->
+    <!-- 
+ <h2>rtl</h2>
+ <p id="myP">Click the button to change my text direction.</p>
+ -->
+    <!-- 
+    <h2 class='testClass22'>firstChild</h2>
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <h3 class='testClass22'>Test 22</h3>
+ -->
+    <!-- 
+ <h2>getBoundingClientRect</h2>
+ <div style="height:200px; width:300px; overflow:auto;">
+    <div id="myDiv" style="width:250px; height:150px; border:1px solid red;">
+    Return the top-left corner of this element relative to the top left corner of the viewport with the button below.<br>
+    Also try to use the scrollbars to test the method for different positions.
+    </div>
+    <div style="width:1000px; height:1000px;"></div>
+    </div>
+ -->
+    <!-- 
+ <h2>has attr</h2>
+ <button id='myBtn' name='b11'>button 11</button>
+ -->
+    <!-- 
+ <h2>hasChildNodes</h2>
+ <ul id="myList">
+    <li>Coffee</li>
+    <li>Tea</li>
+  </ul>
+ -->
+    <!-- 
+ <h2>has id</h2>
+<a class="anchors" id="myAnchor" href="https://www.w3schools.com/html/">HTML</a>
+<a class="anchors" href="https://www.w3schools.com/css/">CSS</a>
+<a class="anchors" href="https://www.w3schools.com/js/">JavaScript</a>
+ -->
+    <!-- 
+ <h2>
+    insertAdjacentElement
+ </h2>
+ <h3>HTML DOM insertAdjacentElement() Method</h3>
+
+<p>This method inserts a specified element, into a specified position.</p>
+
+<span style="color:red">My span</span>
+
+<h4 id="myH4">My Header</h4>
+ -->
+    <!-- 
+<h2>insertBefore</h2>
+<ul id="myList">
+    <li>Coffee</li>
+    <li>Tea</li>
+  </ul>
+  -->
+    <!-- 
+ <h2>isContentEditable</h2>
+ <p id="myP" contenteditable="true">Click the button to find out if I am editable.</p>
+ -->
+    <!-- 
+<h2>compare</h2>
+
+List 1:
+<ul id="myList1"><li>Water</li><li>Milk</li></ul>
+List 2:
+<ul id="myList2"><li>Coffee</li><li>Tea</li></ul>
+List 3:
+<ul id="myList3"><li>Water</li><li>Fire</li></ul>
+
+<br><br>
+
+<button id='b22' onclick="fnDoX1('myList1','myList2')" >Compare List 1 and 2</button>
+<button id='b23' onclick="fnDoX1('myList1','myList3')" >Compare List 1 and 3</button>
+ -->
+<!-- 
+    <h2>isSameNode</h2>
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+ -->
+
+ <!-- 
+<h2>lang</h2>
+<p id="myP" lang="de">Click the button to display the language code of this p element.</p>
+ -->
+
+<!-- 
+ <h2>matches</h2>
+ <p id="myElement" class="container"></p>
+ -->
+
+<!-- 
+<h2>nextSibling</h2>
+ <ul><li id="item1">Coffee (first li)</li><li id="item2">Tea (second li)</li></ul>
+ -->
+
+<!-- 
+ <h2>nodeName</h2>
+ <p id="myP">Click the button to get the node name of this element.</p>
+<i>test</i>
+ -->
+
+ <h2>normalize</h2>
+ <button id='b41'>b41</button>
+ <button id='b42'>b42</button>
+ <div id='demo'></div>
+
+ <p>The paragraph above has <span id="cc">1</span> child node(s).</p>
+
+
     <!-- <script src=js/script.js></script> -->
     <!-- <script src=js/arr-1.js></script> -->
     <!-- <script src=js/boolean-1.js></script> -->
