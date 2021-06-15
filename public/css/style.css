@@ -46,13 +46,23 @@ a:active {
   color: white;
   font-size: 25px;
 }
+/* 
+#myDIV {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    margin: 15px;
+    border-top: 15px solid black;
+    border-left: 10px solid red;
+    background-color: lightblue;
+}
+ */
 #myDIV {
   height: 250px;
   width: 400px;
   padding: 10px;
   margin: 15px;
-  border-top: 15px solid black;
-  border-left: 10px solid red;
+  border: 5px solid red;
   background-color: lightblue;
 }
 .anchors {
@@ -68,4 +78,7 @@ a:active {
   background-color: tomato;
   color: white;
   padding: 20px;
+}
+.removeMeH3 {
+  color: lime;
 }
