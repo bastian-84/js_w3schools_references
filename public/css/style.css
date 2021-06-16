@@ -82,3 +82,40 @@ a:active {
 .removeMeH3 {
   color: lime;
 }
+#myDIV21 {
+  margin-top: 10px;
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+}
+#content21 {
+  height: 800px;
+  width: 2000px;
+  padding: 10px;
+  background-color: coral;
+}
+#myDIV44 {
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+  background: green;
+}
+#content44 {
+  margin: 500px;
+  height: 800px;
+  width: 2000px;
+  background-color: coral;
+}
+#myDIV31 {
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+}
+#content31 {
+  height: 800px;
+  width: 2000px;
+  background-color: coral;
+}
+.class88 {
+  color: lime;
+}

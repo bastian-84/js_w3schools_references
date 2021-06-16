@@ -700,13 +700,29 @@ sB1.addEventListener('click', fnDoX1);
 // ====================================================== //
 // ================== Pendant appendChild, removeChild( ) ================== //
 // ====================================================== //
-
+/* 
 let fnDoX1 = () => {
     let list1 = fnGetEl('#myList');
     list1.removeChild(list1.childNodes[0]);
 }
 sB1.addEventListener('click', fnDoX1);
-  
+   */
+
+
+// ====================================================== //
+// ================== replaceChild( ) ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let textnode1 = document.createTextNode('Water');
+    let item1 = fnGetEl('#myList').childNodes[0];
+    console.log(item1);
+    console.log(item1);
+    item1.replaceChild(textnode1, item1.childNodes[0]);
+   
+}
+sB1.addEventListener('click', fnDoX1);
+    */
 
 
 
@@ -771,10 +787,141 @@ sB1.addEventListener('click', fnDoX1);
 // ====================================================== //
 /* 
 let fnDoX1 = () => {
-
+    let element1 = fnGetEl('#content21');
+    let y1 = element1.scrollHeight;
+    let x1 = element1.scrollWidth;
+    sOutput01.innerHTML = y1 + ' ' + x1;
 }
 sB1.addEventListener('click', fnDoX1);
  */
+
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let element1 = fnGetEl('#content44');
+    element1.scrollIntoView();
+}
+sB1.addEventListener('click', fnDoX1);
+ 
+ */
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+/* 
+let fnDoX31 = () => {
+    element1 = fnGetEl('#myDIV31');
+    let x1 = element1.scrollLeft;
+    let y1 = element1.scrollTop;
+    sOutput01.innerHTML = x1 + ' ' + y1;
+}
+ */
+
+
+
+
+
+// ====================================================== //
+// ================== setAttribute( ) ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let x1 = document.getElementsByTagName('h3')[0];
+    x1.setAttribute('class', 'class88');
+}
+sB1.addEventListener('click', fnDoX1);
+  */
+
+
+
+// ====================================================== //
+// ================== setAttributeNode( ) ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let x1 = document.getElementsByTagName('h3')[0];
+    let attr1 = document.createAttribute('class');
+    attr1.value = 'class88';
+    x1.setAttributeNode(attr1);
+}
+sB1.addEventListener('click', fnDoX1);
+  */
+
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+/* 
+let a1 = fnGetEl('#myAnchor1');
+let a2 = fnGetEl('#myAnchor2');
+let a3 = fnGetEl('#myAnchor3');
+
+console.log('tabIndex of 1st a = ' + a1.tabIndex);
+console.log('tabIndex of 2nd a = ' + a2.tabIndex);
+console.log('tabIndex of 3rd a = ' + a3.tabIndex);
+
+let fnDoX1 = () => {
+    a1.tabIndex = '3';
+    a2.tabIndex = '2';
+    a3.tabIndex = '1';
+    console.log('tabIndex of 1st a = ' + a1.tabIndex);
+    console.log('tabIndex of 2nd a = ' + a2.tabIndex);
+    console.log('tabIndex of 3rd a = ' + a3.tabIndex);
+}
+sB1.addEventListener('click', fnDoX1);
+ */
+
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let x1 = fnGetEl('#myP').tagName;
+
+    console.log(x1);
+}
+sB1.addEventListener('click', fnDoX1);
+ */
+
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+/* 
+let fnDoX1 = () => {
+    let b111 = fnGetEl('#myBtn').textContent;
+    console.log(b111);
+}
+sB1.addEventListener('click', fnDoX1);
+
+ */
+
+
+
+// ====================================================== //
+// ================== xxx ================== //
+// ====================================================== //
+
+let fnDoX1 = () => {
+    let x1 = fnGetEl('#myAbbr').title;
+    console.log(x1);
+}
+sB1.addEventListener('click', fnDoX1);
+
 
 
 
@@ -905,96 +1052,3 @@ let fnDoX1 = () => {
 }
 sB1.addEventListener('click', fnDoX1);
  */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
-
-
-// ====================================================== //
-// ================== xxx ================== //
-// ====================================================== //
-/* 
-let fnDoX1 = () => {
-
-}
-sB1.addEventListener('click', fnDoX1);
- */
-
-
