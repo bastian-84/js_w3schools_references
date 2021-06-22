@@ -17,7 +17,9 @@
 <!-- Für Normalize -->
 <!-- <body onload="normPara()"> -->
 
-<body>
+<!-- <body onbeforeprint="fnOnBeforePrint()"> -->
+<!--  <body onhashchange="fnDoX1">  -->
+<body> 
 
     <small><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">w3schools JS references</a></small>
     <div>output01: [ <br /></div>
@@ -319,9 +321,60 @@ List 3:
  <h2>textContent</h2>
  <button id="myBtn">Try it</button>
  -->
-
+<!-- 
     <h2>title</h2>
     <p><abbr id="myAbbr" title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+ -->
+<!-- 
+ <h2>animation event</h2>
+ <div id="myDIV" >Click button to start the animation.</div>
+ -->
+<!-- 
+ <h2>onchange( )</h2>
+ <select id="mySelect" onchange="fnDoX1()">
+   <option value="Audi">Audi</option>
+   <option value="BMW">BMW</option>
+   <option value="Mercedes">Mercedes</option>
+   <option value="Volvo">Volvo</option>
+ </select>
+ -->
+
+<!-- 
+ <div class='div34' oncontextmenu="fnDoX1()" contextmenu="mymenu">
+   <p>Right-click inside this box to see the context menu!
+   
+   <menu type="context" id="mymenu">
+     <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+     <menu label="Share on THIS...">
+     <menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);"></menuitem>
+     <menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);"></menuitem>
+     </menu>
+     <menuitem label="Email This PagE" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+   </menu>
+   
+   </div>
+ -->
+<!-- 
+ <input type="text" oncopy="fnDoX1()" value="Try to copy this text">
+ -->
+
+<h2>drag drop</h2>
+<p>Drag the p element back and forth between the two rectangles:</p>
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+<p id="demo"></p>
+
+<!-- 
+<h2>error</h2>
+<img src="image.gif" onerror="fnDoX1()">
+ -->
+
+ <h2>changePart( )</h2>
+ <p>Click the button to change the anchor part of the current URL to #part5</p>
+
     <!-- <script src=js/script.js></script> -->
     <!-- <script src=js/arr-1.js></script> -->
     <!-- <script src=js/boolean-1.js></script> -->
@@ -337,7 +390,8 @@ List 3:
     <!-- <script src=js/dom-document-1.js></script> -->
     <!--  <script src=js/test-1.js></script> -->
     <!--  <script src=js/test-1.js></script> -->
-    <script src=js/dom-element-1.js></script>
+   <!--  <script src=js/dom-element-1.js></script> -->
+    <script src=js/dom-events-1.js></script>
 </body>
 
 </html>

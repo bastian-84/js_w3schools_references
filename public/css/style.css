@@ -119,3 +119,16 @@ a:active {
 .class88 {
   color: lime;
 }
+.div34 {
+  background: yellow;
+  border: 1px solid black;
+  padding: 10px;
+}
+.droptarget {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
