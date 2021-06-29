@@ -132,3 +132,37 @@ a:active {
   padding: 10px;
   border: 1px solid #aaaaaa;
 }
+#div256 {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+#myDIV443 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+#myDIV443:hover {
+  width: 400px;
+}
+#myDIV221 {
+  border: 1px solid black;
+}
+#myDIV558 {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  background: orange;
+  position: relative;
+  font-size: 25px;
+  -webkit-animation-name: mymove;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 5s;
+  /* Chrome, Safari, Opera */
+  animation-name: mymove;
+  animation-duration: 5s;
+}

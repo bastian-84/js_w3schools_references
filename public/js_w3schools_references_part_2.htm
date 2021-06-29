@@ -22,11 +22,16 @@
 <!-- <body onpageshow="fnDoX1()">  -->
 <!-- <body onresize='fnDoX1()'>  -->
 <!-- <body>  -->
- <body> 
+   <!-- <body onmousedown="isKeyPressed(event)"> -->
+      <!-- <body onkeydown="fnDoX1(event)">   --> 
+         <!-- MUSS event HEIßEN!! --> 
+     <!--  <body onload='fnNormPara'> -->
+        <body >  
 
     <small><a href="https://www.w3schools.com/jsref/default.asp" target="_blank">w3schools JS references</a></small>
     <div>output01: [ <br /></div>
     <div id='output01'>
+       
     </div>
     <div>]</div>
     <button id='b1' class='btn'>&lt;button&gt; </button>
@@ -392,9 +397,107 @@ List 3:
 <!-- 
  <input type="text" onpaste="fnDoX1()" value="Try to paste something in here" size="40">
  -->
+<!-- 
+ <form onreset="myFunction()">
+   Enter name: <input type="text">
+   <input type="reset">
+ </form>
+ -->
+<!-- 
+ <div id='div256' onscroll="fnDoX1()">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
+   <br><br>
+   'Whenever you feel like criticizing anyone,' he told me, just remember that all the people in this world haven't had the advantages that you've had.'</div>
+ -->
+<!-- 
+ <input type="search" id="myInput" onsearch="fnDoX1()">
+ <p><strong>Note:</strong> The onsearch event is not supported in Internet Explorer, Firefox or Opera 12 and earlier versions.</p>
+ -->
+<!-- 
+ Select some of the text: <input type="text" value="Hello world!" onselect="fnDoX1()">
+ -->
+<!-- 
+ <details ontoggle="">
+   <summary>Copyright 1999-2014.</summary>
+   <p> - by Refsnes Data. All Rights Reserved.</p>
+   <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+   </details>
+ -->
+<!-- 
+ <div id="myDIV443"></div>
+ -->
+<!-- 
+<div id="myDIV221">This example uses the addEventListener() method to attach a "wheel" event to a DIV element. Roll the mouse wheel over me - either up or down!</div>
+ -->
+<!-- 
+ <p>Click somewhere in the document. An alert box will tell you if the ALT key was pressed when the onmousedown event occured.</p>
+ <p><strong>Tip:</strong> Try to press and hold down the ALT key (on your keyboard) before you click in the document.</p>
+ -->
+<!-- 
+ <div id="myDIV558"></div>
+  -->
 
+   <!-- MUSS event heissen! -->
+   <!-- 
+  <p>Click the button to find out if the onclick event is a bubbling event.</p>
+  <button onclick="fnDoX1(event)">Try it</button>    
+ -->
+<!-- 
+ <div onmousedown="fnDoX1(event)">Click this text with one of your mouse buttons to return a number.
+   <p>
+   0 = The left mouse button<br>
+   1 = The middle mouse button<br>
+   2 = The right mouse button
+   </p>
+   <p><strong>Note:</strong> Internet Explorer 8, and earlier, returns another result:</p>
+   <p>
+   1 = The left mouse button<br>
+   4 = The middle mouse button<br>
+   2 = The right mouse button
+   </p>
+ </div>
+ -->
+<!-- 
+ <p>Press a key on the keyboard in the input field to get the Unicode character code of the pressed key.</p>
+ <input type="text" size="40" onkeypress="fnDoX1(event)">
+ <p id="demo311"></p>
+ <p><strong>Note:</strong> The charCode property is not supported in IE8 and earlier versions.</p>
+ -->
+<!-- 
+ <h2 onclick="fnDoX1(event)">Click this heading to get the x (horizontal) and y (vertical) coordinates of the mouse pointer when it was clicked.</h2>
+ -->
+<!-- 
+ <input type="text" size="40" onkeypress="fnDoX1(event)">
+ -->
 
+<!--  <div onmouseover="this.innerHTML += '*';" id="myDiv">*</div> -->
+<!-- <div id='div556'>*</div> -->
+<!-- 
+<embed src="helloworld.swf">
+   <embed src="helloworld.swf">
+ -->
+<!-- 
+ <p>Select some text in this page, and press the SHIFT button to make the selected text toggle between bold and normal.</p>
+ -->
+ <!-- 
+ <form>
+   First Name: <input type="text" name="fname" value="Donald"><br>
+   Last Name: <input type="text" name="lname" value="Duck">
+ </form>
+ -->
+<!-- 
+ <p>Click anywhere in the document (the right frame) to get focus. If you click outside the document, it will lose focus.</p>
+ <p id="demo444"></p>
+ -->
+<!-- 
+ <img src='./assets/img/dom-scripting-2.png' alt='' />
+ <img src='./assets/img/dom-scripting-2.png' alt='' />
+ <img src='./assets/img/dom-scripting-2.png' alt='' />
+ -->
 
+ <p id="demo">Click one button to add text to the document, click the other button to normalize the document.</p>
+<button id='b1111' onclick="">Add a Text Node</button>
+<button id='b2222' onclick="">Normalize the Document</button>
+<p>The document has <span id="cc">1</span> child node(s).</p>
 
     <!-- <script src=js/script.js></script> -->
     <!-- <script src=js/arr-1.js></script> -->
